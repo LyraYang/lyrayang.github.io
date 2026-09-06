@@ -103,6 +103,8 @@
   .hero-text{flex:1;min-width:0}
   .hero-photo{width:172px;height:172px;border-radius:50%;object-fit:cover;border:4px solid rgba(255,255,255,.28);flex:none;box-shadow:0 6px 24px rgba(0,0,0,.25)}
   @media(max-width:640px){.hero-flex{flex-direction:column-reverse;align-items:flex-start;gap:22px}.hero-photo{width:120px;height:120px}}
+  .vidlink{display:inline-block;margin-top:12px;font-size:13px;font-weight:600;color:var(--blue)}
+  .vidlink:hover{text-decoration:underline}
 </style>
 </head>
 <body>
@@ -145,9 +147,9 @@
   <p class="sec-sub">Shipped, production-grade software from my professional engineering career.</p>
   <div class="feature">
     <div class="vid"><div class="video-wrap">
-      <iframe src="https://player.vimeo.com/video/946348325" loading="lazy" allow="fullscreen; picture-in-picture"
+      <iframe src="https://player.vimeo.com/video/946348325?dnt=1" loading="lazy" allow="fullscreen; picture-in-picture"
               allowfullscreen title="Screw Planning on the 7D FLASH Navigation System"></iframe>
-    </div></div>
+    </div><a class="vidlink" href="https://vimeo.com/946348325" target="_blank" rel="noopener noreferrer">▶ Watch the 7D FLASH demo on Vimeo</a></div>
     <div class="info">
       <div class="badge-live">SHIPPED COMMERCIAL PRODUCT · MEDICAL DEVICE</div>
       <h3>7D FLASH™ Surgical Navigation &amp; 3D Planning</h3>
